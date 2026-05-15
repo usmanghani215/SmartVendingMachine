@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Vending Machine Simulator</title>
+    <!-- Load CheerpJ 3 to run Java in the browser natively -->
+    <script src="https://cj3.leaningtech.com/3.0/cj3loader.js"></script>
+    <style>
+        body {
+            background-color: #F8F9FA;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            color: #2E86AB;
+            margin-bottom: 5px;
+        }
+        p {
+            color: #6C757D;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        #cheerpj-display {
+            width: 1280px;
+            height: 820px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .loading {
+            font-size: 1.2rem;
+            color: #1A1A2E;
+        }
+    </style>
+</head>
+<body>
+    <h2>🤖 Smart Vending Machine Simulator</h2>
+    <p>Loading Java Engine in your browser... This may take a minute on first load.</p>
+    
+    <div id="cheerpj-display">
+        <div class="loading">Loading Virtual Machine... Please wait ☕</div>
+    </div>
+
+    <script>
+        async function runJava() {
+            // Initialize CheerpJ
+            await cheerpjInit();
+            
+            // Clear loading text
+            document.getElementById("cheerpj-display").innerHTML = "";
+            
+            // Attach the display to the div
+            cheerpjCreateDisplay(1280, 820, document.getElementById("cheerpj-display"));
+            
+            // Run the JAR file (hosted in the same directory)
+            cheerpjRunJar("/app/SmartVendingMachine.jar");
+        }
+        
+        runJava();
+    </script>
+</body>
+</html>
