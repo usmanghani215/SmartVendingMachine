@@ -1,0 +1,16 @@
+====================================
+       SMART VENDING MACHINE        
+====================================
+Transaction ID: TXN-23934B8B
+Date & Time: 2026-05-15 21:19:17
+Payment Method: Cash
+Status: SUCCESSFUL
+------------------------------------
+Nimco Mix            x2  Rs. 120.00
+------------------------------------
+Subtotal:                  Rs. 120.00
+Tax (5%):                  Rs.   6.00
+====================================
+TOTAL:                     Rs. 126.00
+====================================
+       Thank you for your purchase!  

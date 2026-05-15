@@ -1,0 +1,24 @@
+101 | Sooper Biscuit | Stock: 15
+102 | Bisconni Chocolatto | Stock: 12
+103 | Peek Freans Rio | Stock: 10
+104 | Nimco Mix | Stock: 8
+105 | Local Potato Chips | Stock: 20
+106 | Zeera Biscuit | Stock: 18
+201 | Pakola Drink | Stock: 15
+202 | Shezan Mango Juice | Stock: 12
+203 | Mineral Water (500ml) | Stock: 25
+204 | Rooh Afza Drink | Stock: 10
+205 | Gourmet Cola | Stock: 14
+206 | Lassi Pack | Stock: 8
+301 | Dates Pack (200g) | Stock: 10
+302 | Mixed Dry Fruits | Stock: 6
+303 | Chana Chaat Cup | Stock: 9
+304 | Fruit Salad Cup | Stock: 7
+305 | Honey Sachet | Stock: 12
+306 | Granola Bar | Stock: 8
+401 | Chai (Tea) | Stock: 30
+402 | Doodh Patti | Stock: 25
+403 | Nescafé Instant Coffee | Stock: 20
+404 | Hot Chocolate | Stock: 15
+405 | Green Tea | Stock: 18
+406 | Kashmiri Chai | Stock: 12
